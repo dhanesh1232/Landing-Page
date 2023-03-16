@@ -72,33 +72,313 @@ nav {
       flex-direction: column;
     }
   }
-.loginMainpage{
-  background-image: radial-gradient(#56ab2f, #a8e063,rgb(138, 228, 138));
-    height:100vh;
-    background-size:cover ;
+@media screen and (max-width:968px){
+  .loginMainpage{
+    background-image: radial-gradient(#56ab2f, #a8e063,rgb(138, 228, 138));
+      height:100vh;
+      background-size:cover ;
+      padding:15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .logImg{
+    width:250px;
+    height:100;
+    align-self: center;
+  }
+  .loginContainer{
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(2.0, 1.8, 1.5, 1.5);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .loginForm{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 4px rgba(2.0, 1.8, 1.5, 1.5);
+    border:0px solid;
+    margin-top:10px;
+    border-radius: 5px; 
+    height:60%;
+    padding:15px;
+    align-self: center ;
+  }
+  .aboutAIandML{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .robo{
+    box-shadow: 2px 2px 4px rgba(2.0, 1.8, 1.5, 1.5);
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 2px double yellowgreen;
+    padding:10px;
+  }
+  .robo-1{
+    box-shadow: 2px 2px 4px rgba(2.0, 1.8, 1.5, 1.5);
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 2px double yellowgreen;
+    padding:10px;
+    margin-top:5px;
+  }
+  .conceptPage{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .imgUrl{
+    border-radius:8px;
+    height:50%;
+    width:50%;
+    flex-shrink: 1;
+    align-self: center;
+    box-shadow: 2px 2px 4px rgba(0.5, .3, .5, 0.8);
+  }
+  .dis{
+    align-self:center ;
+    background-color: transparent;
+    width:80%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border-radius:6px ;
+    margin:5px;
+    border:2px dotted rgb(12, 159, 239);
+    padding:15px;
+  }
+  .roboHead{
+    font-weight: bold;
+    font-style: normal;
+    color: #333;
+    font-family: sans-serif;
+  }
+  .imgUrl-1{
+    border-radius:8px;
+    height:50%;
+    width:50%;
+    flex-shrink: 1;
+    align-self: center;
+    box-shadow: 2px 2px 4px rgba(0.5, .3, .5, 0.8);
+  }.dis-1{
+    background-color: transparent;
+    align-self:center;
+    width:80%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border-radius:6px ;
+    border:2px dotted rgb(12, 159, 239);
+    padding:15px;
+    margin:5px;
+  }
+  .ineerBodyConatct{
     padding:15px;
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    justify-content: center;
+  }
+  .conatctPage{
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 8px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contactHead{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .mail{
+    background-color:transparent;
+    height:100%;
+    margin:5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    width:80%;
+    border:2px solid yellowgreen;
+    border-radius:5px;
+  }
+  .num{
+    background-color:transparent;
+    height:100%;
+    margin:5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    width:80%;
+    border:2px solid yellowgreen;
+    border-radius:5px;
+  }
+  .c{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .insta{
+    background-color:transparent;
+    height:100%;
+    margin:5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    width:80%;
+    border:2px solid yellowgreen;
+    border-radius:5px;
+  }
 }
-.loginContainer{
-  border-radius: 5px;
-  box-shadow: 2px 2px 4px rgba(2.0, 1.8, 1.5, 1.5);
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
+@media screen and (min-width:968px){
+  .loginMainpage{
+    background-image: radial-gradient(#56ab2f, #a8e063,rgb(138, 228, 138));
+      height:100vh;
+      background-size:cover ;
+      padding:15px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .logImg{
+    width:100;
+    height:100;
+  }
+  .loginContainer{
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(2.0, 1.8, 1.5, 1.5);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .loginForm{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 4px rgba(2.0, 1.8, 1.5, 1.5);
+    border:0px solid;
+    border-radius: 5px; 
+    height:60%;
+    padding:15px;
+    align-self: center ;
+  }
+  .aboutAIandML{
+    display: flex;
+    justify-content: space-around;
+  }
+  .robo{
+    box-shadow: 2px 2px 4px rgba(2.0, 1.8, 1.5, 1.5);
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 2px double yellowgreen;
+    padding:10px;
+  }
+  .robo-1{
+    box-shadow: 2px 2px 4px rgba(2.0, 1.8, 1.5, 1.5);
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 2px double yellowgreen;
+    padding:10px;
+    margin-top:5px;
+  }
+  .conceptPage{
+    display: flex;
+    justify-content: space-around;
+  }
+  .imgUrl{
+    border-radius:8px;
+    align-self: center;
+    flex-shrink: 1;
+    box-shadow: 2px 2px 4px rgba(0.5, .3, .5, 0.8);
+  }
+  .roboHead{
+    font-weight: bold;
+    font-style: normal;
+    color: #333;
+    
+    font-family: sans-serif;
+  }
+  .imgUrl-1{
+    border-radius:8px;
+    align-self: center;
+    flex-shrink: 1;
+    order:1;
+    box-shadow: 2px 2px 4px rgba(0.5, .3, .5, 0.8);
+  }.dis-1{
+    background-color: transparent;
+    order:0;
+    width:40%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border-radius:6px ;
+    border:2px dotted rgb(12, 159, 239);
+    padding:15px;
+  }
+  .dis{
+    background-color: transparent;
+    width:40%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border-radius:6px ;
+    margin:5px;
+    border:2px dotted rgb(12, 159, 239);
+    padding:15px;
+  }
+  .ineerBodyConatct{
+    padding:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .conatctPage{
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 8px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contactHead{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .mail{
+    background-color:transparent;
+    height:100%;
+    margin:5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    width:33%;
+    border:2px solid yellowgreen;
+    border-radius:5px;
+  }
+  .num{
+    background-color:transparent;
+    height:100%;
+    margin:5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    width:33%;
+    border:2px solid yellowgreen;
+    border-radius:5px;
+  }
+  .c{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .insta{
+    background-color:transparent;
+    height:100%;
+    margin:5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    width:33%;
+    border:2px solid yellowgreen;
+    border-radius:5px;
+  }
 }
-.loginForm{
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 2px 2px 4px rgba(2.0, 1.8, 1.5, 1.5);
-  border:0px solid;
-  border-radius: 5px; 
-  height:60%;
-  padding:15px;
-  align-self: center ;
-}
+
+
 h4{
   text-align: center;
   color:#ffffff;
@@ -145,7 +425,6 @@ input{
 .main-head{
     font-family: sans-serif;
     color:#333;
-
 }
 .amp{
     color:aqua;
@@ -203,14 +482,6 @@ input{
   color:rgb(145, 125, 125);
   padding:15px;
 }
-@media screen and (max-width:768px){
-  .aboutAIandML{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  
-  }
-}
 .projectSection{
   font-family: sans-serif;
   text-align: center;
@@ -229,111 +500,8 @@ input{
 .aboutProject{
   padding:15px;
 }
-.robo{
-  box-shadow: 2px 2px 4px rgba(2.0, 1.8, 1.5, 1.5);
-  background-color: aquamarine;
-  border-radius: 5px;
-  border: 2px double yellowgreen;
-  padding:10px;
-}
-.robo-1{
-  box-shadow: 2px 2px 4px rgba(2.0, 1.8, 1.5, 1.5);
-  background-color: aquamarine;
-  border-radius: 5px;
-  border: 2px double yellowgreen;
-  padding:10px;
-  margin-top:5px;
-}
-.conceptPage{
-  display: flex;
-  justify-content: space-around;
-}
-.imgUrl{
-  border-radius:8px;
-  align-self: center;
-  box-shadow: 2px 2px 4px rgba(0.5, .3, .5, 0.8);
-}
-.roboHead{
-  font-weight: bold;
-  font-style: normal;
-  color: #333;
-  font-family: sans-serif;
-}
-.dis{
-  background-color: transparent;
-  width:40%;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  border-radius:6px ;
-  border:2px dotted rgb(12, 159, 239);
-  padding:15px;
-}
-.imgUrl-1{
-  border-radius:8px;
-  align-self: center;
-  order:1;
-  box-shadow: 2px 2px 4px rgba(0.5, .3, .5, 0.8);
-}.dis-1{
-  background-color: transparent;
-  order:0;
-  width:40%;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  border-radius:6px ;
-  border:2px dotted rgb(12, 159, 239);
-  padding:15px;
-}
 
-.conatctPage{
-  padding: 15px;
-  background-color: transparent;
-  border-radius: 8px;
-  height:100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.contactHead{
-  font-family: sans-serif;
-  font-weight: 500;
-  color: #333;
-  text-align: center;
-  text-decoration: underline;
-}
-.ineerBodyConatct{
-  padding:15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.mail{
-  background-color:transparent;
-  height:100%;
-  margin:5px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  width:33%;
-  border:2px solid yellowgreen;
-  border-radius:5px;
-}
-.num{
-  background-color:transparent;
-  height:100%;
-  margin:5px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  width:33%;
-  border:2px solid yellowgreen;
-  border-radius:5px;
-}
-.c{
-  text-align: center;
-}
-.insta{
-  background-color:transparent;
-  height:100%;
-  margin:5px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  width:33%;
-  border:2px solid yellowgreen;
-  border-radius:5px;
-}
+
 .name{
   text-align: center;
   color:#333;
