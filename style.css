@@ -288,7 +288,9 @@ nav {
   .imgUrl{
     border-radius:8px;
     align-self: center;
+    width:40%;
     flex-shrink: 1;
+    
     box-shadow: 2px 2px 4px rgba(0.5, .3, .5, 0.8);
   }
   .roboHead{
@@ -310,6 +312,8 @@ nav {
     width:40%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     border-radius:6px ;
+    flex-grow: 1;
+    margin:15px;
     border:2px dotted rgb(12, 159, 239);
     padding:15px;
   }
@@ -318,9 +322,10 @@ nav {
     width:40%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     border-radius:6px ;
-    margin:5px;
+    margin:15px;
     border:2px dotted rgb(12, 159, 239);
     padding:15px;
+    flex-grow: 1;
   }
   .ineerBodyConatct{
     padding:15px;
